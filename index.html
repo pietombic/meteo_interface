@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Dati Meteo</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="span3" id="div1">
+            <p>VISUALIZZATORE DATI METEO</p>
+            <p>Pietro Tombaccini</p>
+        </div>
+
+        <div class="card">
+            <p id="temp" class="bigger">17°</p>
+            <p id="luogo" class="medium">Cesena, <span class="secondary">47522</span></p>
+            <p id="maxTemp" class="smaller secondary">MAX: <span class="primary medium">21°</span></p>
+            <p id="minTemp" class="smaller secondary">MIN: <span class="primary medium">11°</span></p>
+        </div>
+        <div class="card">
+            <p class="bigger">1.015</p>
+            <p style="margin-top: 0;" class="medium">hPa</p>
+            <p id="maxPress" class="smaller secondary">MAX: <span class="primary medium">1.103</span>hPa</p>
+            <p id="minPress" class="smaller secondary">MIN: <span class="primary medium">0.904</span>hPa</p>
+        </div>
+        <div class="card rowSpan">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2863.1028485962406!2d12.25091157678209!3d44.14312402060579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca4cda208d003%3A0x11d98757a965e8b!2sIIS%20Pascal%20Comandini%20-%20sede%20ITT%20%22Blaise%20Pascal%22!5e0!3m2!1sit!2sit!4v1709718760163!5m2!1sit!2sit" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="card span2 divide mapCard">
+            <div class="smallCard">
+                <p>
+                    <span id="velocita" class="bigger">30</span><span class="smaller">km/H</span>
+                </p>
+                <p></p>
+            </div>
+            <div class="smallCard">
+                <p>
+                    <span id="direzione" class="bigger">45</span><span class="bigger">°</span>
+                </p>
+                <p class="small">Nord-Est</p>
+            </div>
+
+        </div>
+        <div class="card">
+            <p><span class="big" id="gradi">45</span><span class="medium">%</span></p>
+
+            <p id="maxUmidity" class="smaller secondary">MAX: <span class="primary medium">62</span>%</p>
+            <p id="minUmidity" class="smaller secondary">MIN: <span class="primary medium">30</span>%</p>
+        </div>
+        <div class="card">
+            <p class="smaller secondary">Last pictures</p>
+            <div class="imgContainer">
+                <img src="./itt_facciata.jpg" height="95%" alt="">
+                <img src="./itt_facciata.jpg" height="95%" alt="">
+                <img src="./itt_facciata.jpg" height="95%" alt="">
+                <img src="./itt_facciata.jpg" height="95%" alt="">
+                <img src="./itt_facciata.jpg" height="95%" alt="">
+                <img src="./itt_facciata.jpg" height="95%" alt="">
+            </div>
+
+        </div>
+        <div class="card">
+            <p>lista ultimi dati raccolti</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
