@@ -47,6 +47,19 @@ body{
     padding: 20px;
     border-radius: 10px;
 }
+#div1 button{
+    font-size:15px;
+    background-color: var(--second-background-color);
+    border-radius: 10px;
+    color: var(--primary-font-color);
+    border:none;
+    padding:15px 25px;
+    transition: ease-in .2s all;
+}
+#div1 button:hover{
+    background-color: #454545;
+    border:1px solid var(--secondary-font-color);
+}
 .card{
     background-color: var(--second-background-color);
     border-radius: 20px;
@@ -79,19 +92,19 @@ body{
 
 /* classi grandezza font */
 .bigger{
-    font-size: 70px;
+    font-size: 60px;
 }
 .big{
-    font-size: 50px;
+    font-size: 40px;
 }
 .medium{
-    font-size: 35px;
+    font-size: 25px;
 }
 .small{
-    font-size: 30px;
+    font-size: 20px;
 }
 .smaller{
-    font-size: 20px;
+    font-size: 17px;
 }
 
 /* classi colori font */
@@ -103,6 +116,12 @@ body{
 }
 /* id dati */
 .map{
-    filter: grayscale(100%) invert(100%);
-    border-radius: 10px;
+    filter: grayscale(100%) invert(85%);
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.noPadding{
+    padding: 0 !important;
 }
